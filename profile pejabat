@@ -1,0 +1,239 @@
+    <div id="profil-tabs-container" style="max-width: 1000px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); overflow: hidden; font-family: 'Inter', sans-serif; color: #333;">
+
+        <!-- TAB NAVIGATION -->
+        <div style="display: flex; border-bottom: 1px solid #e5e7eb; background-color: #f9fafb;">
+            <button class="tab-button active" onclick="openTab(event, 'tab-1')" style="flex: 1; padding: 15px; border: none; background: none; cursor: pointer; font-size: 14px; font-weight: 600; color: #1e3a8a; border-bottom: 3px solid #1e3a8a; transition: all 0.3s ease;">KEPALA SATUAN KERJA</button>
+            <button class="tab-button" onclick="openTab(event, 'tab-2')" style="flex: 1; padding: 15px; border: none; background: none; cursor: pointer; font-size: 14px; font-weight: 600; color: #6b7280; border-bottom: 3px solid transparent; transition: all 0.3s ease;">ESELON IV</button>
+            <button class="tab-button" onclick="openTab(event, 'tab-3')" style="flex: 1; padding: 15px; border: none; background: none; cursor: pointer; font-size: 14px; font-weight: 600; color: #6b7280; border-bottom: 3px solid transparent; transition: all 0.3s ease;">ESELON V</button>
+        </div>
+
+        <!-- TAB CONTENT AREA -->
+        <div style="padding: 30px;">
+
+            <!-- TAB 1: KEPALA SATUAN KERJA -->
+            <div id="tab-1" class="tab-content" style="display: block; animation: fadeIn 0.5s;">
+                <div style="display: flex; flex-wrap: wrap; gap: 30px; align-items: flex-start;">
+                    
+                    <!-- Foto Kepala -->
+                    <div style="flex: 0 0 200px; text-align: center; margin: 0 auto;">
+                        <div style="padding: 10px; border: 1px solid #e5e7eb; border-radius: 8px; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                            <img src="https://palangkaraya.imigrasi.go.id/wp-content/uploads/2025/12/kakanim_pky_wijay_kumar.png" alt="Kepala Kantor" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+                        </div>
+                    </div>
+
+                    <!-- Biodata Kepala -->
+                    <div style="flex: 1; min-width: 300px;">
+                        <h3 style="margin: 0 0 20px 0; color: #1e3a8a; font-size: 20px; border-bottom: 2px solid #fbbf24; padding-bottom: 10px; display: inline-block;">Biodata Pejabat</h3>
+                        
+                        <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+                            <tr style="border-bottom: 1px solid #f3f4f6;">
+                                <td style="padding: 10px 0; width: 35%; font-weight: 600; color: #4b5563;">Nama</td>
+                                <td style="padding: 10px 0; width: 5%;">:</td>
+                                <td style="padding: 10px 0; font-weight: 700; color: #111827;">Wijay Kumar, S.H.</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #f3f4f6;">
+                                <td style="padding: 10px 0; font-weight: 600; color: #4b5563;">NIP</td>
+                                <td style="padding: 10px 0;">:</td>
+                                <td style="padding: 10px 0; color: #374151;">197911202001121001</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #f3f4f6;">
+                                <td style="padding: 10px 0; font-weight: 600; color: #4b5563;">Tempat, Tanggal Lahir</td>
+                                <td style="padding: 10px 0;">:</td>
+                                <td style="padding: 10px 0; color: #374151;">Medan, 20 November 1979</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #f3f4f6;">
+                                <td style="padding: 10px 0; font-weight: 600; color: #4b5563;">Agama</td>
+                                <td style="padding: 10px 0;">:</td>
+                                <td style="padding: 10px 0; color: #374151;">Budha</td>
+                            </tr>
+                        </table>
+
+                        <div style="display: grid; grid-template-columns: 1fr; gap: 20px;">
+                            <div>
+                                <h4 style="margin: 0 0 10px 0; font-size: 16px; color: #1e3a8a;">Pendidikan</h4>
+                                <ul style="margin: 0; padding-left: 20px; color: #4b5563; font-size: 14px; line-height: 1.6;">
+                                    <li>S1 Ilmu Hukum - Universitas Pakuan (2003)</li>
+                                    <li>SMA Swasta Angkasa Lanud Medan (1997)</li>
+                                    <li>SMP Methodist 4 (1994)</li>
+                                    <li>SD Swasta Kemala Bhayangkari 1 (1991)</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 style="margin: 0 0 10px 0; font-size: 16px; color: #1e3a8a;">Riwayat Pekerjaan</h4>
+                                <ul style="margin: 0; padding-left: 20px; color: #4b5563; font-size: 14px; line-height: 1.6;">
+                                    <li>Kepala Kantor Imigrasi Kelas II TPI Tahuna (2024-Sekarang)</li>
+                                    <li>Kepala Kantor Imigrasi Kelas III Non TPI Cianjur (2023-2024)</li>
+                                    <li>Analis Kepegawaian Muda (2021-2023)</li>
+                                    <li>Kepala Sub Bagian Umum Kepegawaian pada Sekretariat Direktorat Jenderal Imigrasi (2021)</li>
+                                    <li>Kepala Seksi Teknologi Informasi dan Komunikasi Keimigrasian pada Kanim Kelas I Non TPI Bogor (2020-2021)</li>
+                                    <li>Kepala Seksi Registrasi Administrasi dan Pelaporan pada Rudenim Balikpapan (2019-2020)</li>
+                                    <li>Kepala Sub Seksi Status Keimigrasian pada Kanim Kelas II Blitar (2015-2019)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 2: ESELON IV -->
+            <div id="tab-2" class="tab-content" style="display: none; animation: fadeIn 0.5s;">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+                    
+                    <!-- Card Item -->
+                    <div style="display: flex; align-items: center; gap: 15px; border: 1px solid #e5e7eb; padding: 15px; border-radius: 8px; transition: transform 0.2s;" onmouseover="this.style.borderColor='#93c5fd'" onmouseout="this.style.borderColor='#e5e7eb'">
+                        <img src="https://palangkaraya.imigrasi.go.id/wp-content/uploads/2025/10/kasubag_tu.jpg" style="width: 80px; height: 100px; object-fit: cover; border-radius: 6px; border: 1px solid #ddd;" alt="Liyana">
+                        <div>
+                            <div style="font-size: 12px; color: #1e40af; font-weight: 600; margin-bottom: 4px; text-transform: uppercase;">Kasubbag Tata Usaha</div>
+                            <div style="font-weight: 700; color: #111827; margin-bottom: 4px;">Liyana, S.Ag., M.SI.</div>
+                            <div style="font-size: 12px; color: #6b7280; font-family: monospace;">NIP. 197310031994032001</div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: center; gap: 15px; border: 1px solid #e5e7eb; padding: 15px; border-radius: 8px; transition: transform 0.2s;" onmouseover="this.style.borderColor='#93c5fd'" onmouseout="this.style.borderColor='#e5e7eb'">
+                        <img src="https://palangkaraya.imigrasi.go.id/wp-content/uploads/2025/10/kasi_yanverdok.jpg" style="width: 80px; height: 100px; object-fit: cover; border-radius: 6px; border: 1px solid #ddd;" alt="Albert">
+                        <div>
+                            <div style="font-size: 12px; color: #1e40af; font-weight: 600; margin-bottom: 4px; text-transform: uppercase;">Kasi Yanverdokim</div>
+                            <div style="font-weight: 700; color: #111827; margin-bottom: 4px;">Albert Oloan Pasaribu, S.S., M.A.P</div>
+                            <div style="font-size: 12px; color: #6b7280; font-family: monospace;">NIP. 198107072009121004</div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: center; gap: 15px; border: 1px solid #e5e7eb; padding: 15px; border-radius: 8px; transition: transform 0.2s;" onmouseover="this.style.borderColor='#93c5fd'" onmouseout="this.style.borderColor='#e5e7eb'">
+                        <img src="https://palangkaraya.imigrasi.go.id/wp-content/uploads/2025/10/kasi_intaltuskim.jpg" style="width: 80px; height: 100px; object-fit: cover; border-radius: 6px; border: 1px solid #ddd;" alt="Tris Peres">
+                        <div>
+                            <div style="font-size: 12px; color: #1e40af; font-weight: 600; margin-bottom: 4px; text-transform: uppercase;">Kasi Izin Tinggal</div>
+                            <div style="font-weight: 700; color: #111827; margin-bottom: 4px;">Tris Peres Lolon, S.H., M.M.</div>
+                            <div style="font-size: 12px; color: #6b7280; font-family: monospace;">NIP. 198502092010121005</div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: center; gap: 15px; border: 1px solid #e5e7eb; padding: 15px; border-radius: 8px; transition: transform 0.2s;" onmouseover="this.style.borderColor='#93c5fd'" onmouseout="this.style.borderColor='#e5e7eb'">
+                        <img src="https://palangkaraya.imigrasi.go.id/wp-content/uploads/2025/10/kasi_tikim.jpg" style="width: 80px; height: 100px; object-fit: cover; border-radius: 6px; border: 1px solid #ddd;" alt="Iman">
+                        <div>
+                            <div style="font-size: 12px; color: #1e40af; font-weight: 600; margin-bottom: 4px; text-transform: uppercase;">Kasi Tikim</div>
+                            <div style="font-weight: 700; color: #111827; margin-bottom: 4px;">Iman Muhammad, S.I.Kom.</div>
+                            <div style="font-size: 12px; color: #6b7280; font-family: monospace;">NIP. 198610282009011003</div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: center; gap: 15px; border: 1px solid #e5e7eb; padding: 15px; border-radius: 8px; transition: transform 0.2s;" onmouseover="this.style.borderColor='#93c5fd'" onmouseout="this.style.borderColor='#e5e7eb'">
+                        <img src="https://palangkaraya.imigrasi.go.id/wp-content/uploads/2025/10/kasi_inteldakim.jpg" style="width: 80px; height: 100px; object-fit: cover; border-radius: 6px; border: 1px solid #ddd;" alt="Erix">
+                        <div>
+                            <div style="font-size: 12px; color: #1e40af; font-weight: 600; margin-bottom: 4px; text-transform: uppercase;">Kasi Inteldakim</div>
+                            <div style="font-weight: 700; color: #111827; margin-bottom: 4px;">Erix Ajisaputro, S.H., M.H.</div>
+                            <div style="font-size: 12px; color: #6b7280; font-family: monospace;">NIP. 198403252005011001</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- TAB 3: ESELON V -->
+            <div id="tab-3" class="tab-content" style="display: none; animation: fadeIn 0.5s;">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+
+                    <!-- Eselon V Cards -->
+                     <div style="display: flex; align-items: center; gap: 15px; border: 1px solid #e5e7eb; padding: 15px; border-radius: 8px;">
+                        <img src="https://palangkaraya.imigrasi.go.id/wp-content/uploads/2025/10/kaur_kepegawaian.jpg" style="width: 70px; height: 90px; object-fit: cover; border-radius: 4px; border: 1px solid #eee;" alt="Eddy">
+                        <div>
+                            <div style="font-size: 11px; color: #1e40af; font-weight: 600; text-transform: uppercase;">Kaur Kepegawaian</div>
+                            <div style="font-size: 14px; font-weight: 700; color: #111827;">Eddy Gunawan, S.H.</div>
+                            <div style="font-size: 11px; color: #6b7280;">NIP. 197705282001121003</div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: center; gap: 15px; border: 1px solid #e5e7eb; padding: 15px; border-radius: 8px;">
+                        <img src="https://palangkaraya.imigrasi.go.id/wp-content/uploads/2025/10/kaur_keuangan.jpg" style="width: 70px; height: 90px; object-fit: cover; border-radius: 4px; border: 1px solid #eee;" alt="Akhmad">
+                        <div>
+                            <div style="font-size: 11px; color: #1e40af; font-weight: 600; text-transform: uppercase;">Kaur Keuangan</div>
+                            <div style="font-size: 14px; font-weight: 700; color: #111827;">Akhmad Yandi, S.H.</div>
+                            <div style="font-size: 11px; color: #6b7280;">NIP. 197704162001121003</div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: center; gap: 15px; border: 1px solid #e5e7eb; padding: 15px; border-radius: 8px;">
+                        <img src="https://palangkaraya.imigrasi.go.id/wp-content/uploads/2025/10/kaur_umum.jpg" style="width: 70px; height: 90px; object-fit: cover; border-radius: 4px; border: 1px solid #eee;" alt="Bagustya">
+                        <div>
+                            <div style="font-size: 11px; color: #1e40af; font-weight: 600; text-transform: uppercase;">Kaur Umum</div>
+                            <div style="font-size: 14px; font-weight: 700; color: #111827;">Bagustya Fazari, M.A.P.</div>
+                            <div style="font-size: 11px; color: #6b7280;">NIP. 199008172017121001</div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: center; gap: 15px; border: 1px solid #e5e7eb; padding: 15px; border-radius: 8px;">
+                        <img src="https://palangkaraya.imigrasi.go.id/wp-content/uploads/2025/10/kasubsi_verdoklan.jpg" style="width: 70px; height: 90px; object-fit: cover; border-radius: 4px; border: 1px solid #eee;" alt="Salatin">
+                        <div>
+                            <div style="font-size: 11px; color: #1e40af; font-weight: 600; text-transform: uppercase;">Kasubsi Verdoklan</div>
+                            <div style="font-size: 14px; font-weight: 700; color: #111827;">Salatin Kennedy H, S.H.</div>
+                            <div style="font-size: 11px; color: #6b7280;">NIP. 198504202008011001</div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: center; gap: 15px; border: 1px solid #e5e7eb; padding: 15px; border-radius: 8px;">
+                        <img src="https://palangkaraya.imigrasi.go.id/wp-content/uploads/2025/10/kasubsi_yandoklan.jpg" style="width: 70px; height: 90px; object-fit: cover; border-radius: 4px; border: 1px solid #eee;" alt="Yusuf">
+                        <div>
+                            <div style="font-size: 11px; color: #1e40af; font-weight: 600; text-transform: uppercase;">Kasubsi Yandoklan</div>
+                            <div style="font-size: 14px; font-weight: 700; color: #111827;">M. Yusuf Andhika R, S.H.</div>
+                            <div style="font-size: 11px; color: #6b7280;">NIP. 199003272009121005</div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: center; gap: 15px; border: 1px solid #e5e7eb; padding: 15px; border-radius: 8px;">
+                        <img src="https://palangkaraya.imigrasi.go.id/wp-content/uploads/2025/10/kasubsi_intalkim.jpg" style="width: 70px; height: 90px; object-fit: cover; border-radius: 4px; border: 1px solid #eee;" alt="Rizwan">
+                        <div>
+                            <div style="font-size: 11px; color: #1e40af; font-weight: 600; text-transform: uppercase;">Kasubsi Izin Tinggal</div>
+                            <div style="font-size: 14px; font-weight: 700; color: #111827;">Rizwan</div>
+                            <div style="font-size: 11px; color: #6b7280;">NIP. 198410242005011001</div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: center; gap: 15px; border: 1px solid #e5e7eb; padding: 15px; border-radius: 8px;">
+                        <img src="https://palangkaraya.imigrasi.go.id/wp-content/uploads/2025/10/kasubsi_dakim.jpg" style="width: 70px; height: 90px; object-fit: cover; border-radius: 4px; border: 1px solid #eee;" alt="Dhany">
+                        <div>
+                            <div style="font-size: 11px; color: #1e40af; font-weight: 600; text-transform: uppercase;">Kasubsi Penindakan</div>
+                            <div style="font-size: 14px; font-weight: 700; color: #111827;">Dhany Arindra, S.H.</div>
+                            <div style="font-size: 11px; color: #6b7280;">NIP. 198211272002121002</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- SCRIPT UNTUK FUNGSI TAB -->
+        <script>
+            function openTab(evt, tabName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tab-content");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+
+                tablinks = document.getElementsByClassName("tab-button");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    tablinks[i].style.color = "#6b7280";
+                    tablinks[i].style.borderBottom = "3px solid transparent";
+                }
+
+                document.getElementById(tabName).style.display = "block";
+                
+                evt.currentTarget.className += " active";
+                evt.currentTarget.style.color = "#1e3a8a";
+                evt.currentTarget.style.borderBottom = "3px solid #1e3a8a";
+            }
+        </script>
+
+        <!-- Tambahkan sedikit style untuk animasi fade -->
+        <style>
+            @keyframes fadeIn {
+                from { opacity: 0; transform: translateY(5px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
+            .tab-button:hover {
+                background-color: #f3f4f6 !important;
+            }
+        </style>
+
+    </div>
