@@ -1,4 +1,17 @@
-    <div id="profil-tabs-container" style="max-width: 1000px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); overflow: hidden; font-family: 'Inter', sans-serif; color: #333;">
+<img
+                  decoding="async"
+                  style="
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border: solid black 1px;
+                  "
+                  src="https://palangkaraya.imigrasi.go.id/wp-content/uploads/2025/12/kakanim_pky_wijay_kumar.png"
+                  width="226"
+                  height="301" /></span
+            >
+
+<div id="profil-tabs-container" style="max-width: 1000px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); overflow: hidden; font-family: 'Inter', sans-serif; color: #333;">
 
         <!-- TAB NAVIGATION -->
         <div style="display: flex; border-bottom: 1px solid #e5e7eb; background-color: #f9fafb;">
